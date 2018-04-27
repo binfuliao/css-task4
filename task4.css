@@ -1,0 +1,81 @@
+*{margin: 0;padding: 0;}
+html{font-size: 62.5%;}
+.main{width: 100%;}
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 4.5rem;
+	background-color:#5fc0cd;	
+	font-size: 2rem;
+	color: white;
+    padding: 0 2rem;
+}
+.header button{
+	border:none;
+	height: 4.5rem;
+	background-color:#5fc0cd;
+    color: white;
+    font-size: 2rem;
+}
+.register{
+	float: left;	
+}
+.close{
+	float: right;
+}
+.notice{
+	text-align: center;
+	height: 4.5rem;	
+	line-height: 4.5rem; 
+	font-size: 2.5rem;
+}
+.bodyer{
+	margin-top: 10rem;
+}
+input[placeholder]{
+	border-left: solid white;
+	font-size: 2rem;
+
+}
+input:-moz-placeholder{ color: #e1e5e7; }
+::-webkit-input-placeholder{ color: #e1e5e7;}
+.phonenumber{
+	display: block;
+	background-image: url(images/land.png);
+	background-position: left;
+	background-repeat: no-repeat;
+	margin-bottom: 2rem;
+	box-sizing: border-box;
+	width: 100%;
+	height: 8rem;
+	padding: 2rem 0 2rem 14.2rem;
+}
+.password{
+	display: block;
+	background-image: url(images/password.png);
+	background-position: 0rem center;
+	background-repeat: no-repeat;
+	padding-left: 14.2rem;
+	margin-bottom: 6.5rem;
+	box-sizing:border-box;
+	width: 100%;
+	border: none;
+	height: 8rem; 
+	padding: 2rem 0 2rem 14.2rem;
+}
+.land{
+    width: 100%;
+    height: 4.7rem;
+    background-color:#5fc0cd;
+    border:none; 
+    font-size: 2rem;
+    color: white;
+}
+.forget{
+	display: inline-block;
+	float: right;
+	font-size: 2rem;
+	text-decoration: none;
+}
