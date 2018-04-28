@@ -1,81 +1,102 @@
 *{margin: 0;padding: 0;}
-html{font-size: 62.5%;}
-.main{width: 100%;}
-.header{
+html{font-size: 1250%;}
+.main {
+	width: 100%;
+	background-color: #e1e5e7;
+}
+.header {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 4.5rem;
+	height: 0.3rem;
 	background-color:#5fc0cd;	
-	font-size: 2rem;
+	font-size: 0.1rem;
 	color: white;
-    padding: 0 2rem;
+    padding: 0 0.1rem;
 }
-.header button{
+.header button {
 	border:none;
-	height: 4.5rem;
+	height: 0.3rem;
 	background-color:#5fc0cd;
     color: white;
-    font-size: 2rem;
+    font-size: 0.1rem;
 }
-.register{
+.register {
 	float: left;	
 }
-.close{
+.close {
 	float: right;
 }
-.notice{
+.notice {
 	text-align: center;
-	height: 4.5rem;	
-	line-height: 4.5rem; 
-	font-size: 2.5rem;
+	height: 0.3rem;	
+	line-height: 0.3rem; 
+	font-size: 0.1rem;
 }
-.bodyer{
-	margin-top: 10rem;
+.bodyer {
+	padding-top: 0.36rem;	
 }
-input[placeholder]{
-	border-left: solid white;
-	font-size: 2rem;
 
+input[placeholder] {
+	font-size: 0.1rem;
 }
 input:-moz-placeholder{ color: #e1e5e7; }
 ::-webkit-input-placeholder{ color: #e1e5e7;}
-.phonenumber{
+.phonenumber {
 	display: block;
 	background-image: url(images/land.png);
 	background-position: left;
 	background-repeat: no-repeat;
-	margin-bottom: 2rem;
+	margin-bottom: 0.04rem;
 	box-sizing: border-box;
 	width: 100%;
-	height: 8rem;
-	padding: 2rem 0 2rem 14.2rem;
+	border: none;
+	height: 0.36rem;
+	padding: 0rem 0 0rem 0.54rem;
 }
-.password{
+.password {
 	display: block;
 	background-image: url(images/password.png);
 	background-position: 0rem center;
 	background-repeat: no-repeat;
-	padding-left: 14.2rem;
-	margin-bottom: 6.5rem;
+	padding-left: 0.54rem;
+	margin-bottom: 0.24rem;
 	box-sizing:border-box;
 	width: 100%;
 	border: none;
-	height: 8rem; 
-	padding: 2rem 0 2rem 14.2rem;
+	height: 0.36rem; 
+	padding: 0rem 0 0rem 0.54rem;
 }
-.land{
+.blank {
+	display: inline-block;
+	height: 0.2rem;
+	border: 1px solid #e1e5e7;
+	position: absolute;
+	top: 0.44rem; /*top=body's padding-top+padding-button+(.phonenumber's height-.blank's height)/2=10rem+0+(8-7)/2 rem=10.5rem*/
+	left: 0.42rem;
+}
+.gap {
+	display: inline-block;
+	height: 0.2rem;
+	border: 1px solid #e1e5e7;
+	position: absolute;
+	top: 0.84rem; /*top=body's padding-top+.phonenumber's height+.phonenumber's margin-bottom+.phonenumber's margin-top+(.password's height-.blank's height)/2*/
+	left: 0.42rem;
+}
+.land {
+	display: block;
     width: 100%;
-    height: 4.7rem;
+    height: 0.36rem;
     background-color:#5fc0cd;
     border:none; 
-    font-size: 2rem;
+    font-size: 0.1rem;
     color: white;
 }
-.forget{
+.forget {
 	display: inline-block;
 	float: right;
-	font-size: 2rem;
+	font-size: 0.1rem;
 	text-decoration: none;
+	padding: 0.01rem 0.01rem 0 0;
 }
