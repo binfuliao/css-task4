@@ -45,7 +45,7 @@ input:-moz-placeholder{ color: #e1e5e7; }
 .phonenumber {
 	display: block;
 	background-image: url(images/land.png);
-	background-position: -0.08rem center;
+	background-position: left;
 	background-repeat: no-repeat;
 	margin-bottom: 0.04rem;
 	box-sizing: border-box;
@@ -57,7 +57,7 @@ input:-moz-placeholder{ color: #e1e5e7; }
 .password {
 	display: block;
 	background-image: url(images/password.png);
-	background-position: -0.08rem center;
+	background-position: left;
 	background-repeat: no-repeat;
 	padding-left: 0.54rem;
 	margin-bottom: 0.24rem;
