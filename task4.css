@@ -12,8 +12,7 @@ html{font-size: 62.5%;}
 	right: 0;
 	height: 9rem;
 	line-height: 9rem;
-	background-color:#5fc0cd;	
-	font-size: 3rem;
+	background-color:#5fc0cd;
 	color: white;
     padding: 0 3rem;
 }
@@ -22,7 +21,6 @@ html{font-size: 62.5%;}
 	height: 9rem;
 	background-color:#5fc0cd;
     color: white;
-    font-size: 3rem;
 }
 .register {
 	float: left;	
@@ -38,14 +36,13 @@ html{font-size: 62.5%;}
 }
 
 input[placeholder] {
-	font-size: 3rem;
 }
 input:-moz-placeholder{ color: #e1e5e7; }
 ::-webkit-input-placeholder{ color: #e1e5e7;}
 .phonenumber {
 	display: block;
 	background-image: url(images/land.png);
-	background-size: 11.5rem 10rem;
+	background-size:11.5rem 10rem;
 	background-position: left;
 	background-repeat: no-repeat;
 	margin-bottom: 1.5rem;
@@ -53,12 +50,12 @@ input:-moz-placeholder{ color: #e1e5e7; }
 	width: 100%;
 	border: none;
 	height: 10rem;
-	padding: 0 0 0 15rem;
+	padding: 0rem 0 0rem 15rem;
 }
 .password {
 	display: block;
 	background-image: url(images/password.png);
-	background-size: 11.5rem 10rem;
+	background-size:11.5rem 10rem;
 	background-position: left;
 	background-repeat: no-repeat;
 	padding-left: 15rem;
@@ -91,13 +88,15 @@ input:-moz-placeholder{ color: #e1e5e7; }
     height: 10rem;
     background-color:#5fc0cd;
     border:none; 
-    font-size: 3rem;
     color: white;
+    font-size: 3rem;
 }
 .forget {
 	display: inline-block;
 	float: right;
-	font-size: 3rem;
 	text-decoration: none;
 	padding: 2rem 3rem 0 0;
+	color: #5fc0cd;
+	margin-bottom: 17rem;
+	font-size: 62.5%;
 }
