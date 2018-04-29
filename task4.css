@@ -1,28 +1,28 @@
 *{margin: 0;padding: 0;}
-html{font-size: 1250%;}
+html{font-size: 62.5%;}
 .main {
 	width: 100%;
 	background-color: #e1e5e7;
-	font-size: 0.1rem;
+	font-size: 3rem;
 }
 .header {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 0.3rem;
-	line-height: 0.3rem;
+	height: 9rem;
+	line-height: 9rem;
 	background-color:#5fc0cd;	
-	font-size: 0.1rem;
+	font-size: 3rem;
 	color: white;
-    padding: 0 0.1rem;
+    padding: 0 3rem;
 }
 .header button {
 	border:none;
-	height: 0.3rem;
+	height: 9rem;
 	background-color:#5fc0cd;
     color: white;
-    font-size: 0.1rem;
+    font-size: 3rem;
 }
 .register {
 	float: left;	
@@ -34,68 +34,70 @@ html{font-size: 1250%;}
 	text-align: center; 
 }
 .bodyer {
-	padding-top: 0.36rem;	
+	padding-top: 10.5rem;	
 }
 
 input[placeholder] {
-	font-size: 0.1rem;
+	font-size: 3rem;
 }
 input:-moz-placeholder{ color: #e1e5e7; }
 ::-webkit-input-placeholder{ color: #e1e5e7;}
 .phonenumber {
 	display: block;
 	background-image: url(images/land.png);
+	background-size: 11.5rem 10rem;
 	background-position: left;
 	background-repeat: no-repeat;
-	margin-bottom: 0.04rem;
+	margin-bottom: 1.5rem;
 	box-sizing: border-box;
 	width: 100%;
 	border: none;
-	height: 0.36rem;
-	padding: 0rem 0 0rem 0.54rem;
+	height: 10rem;
+	padding: 0 0 0 15rem;
 }
 .password {
 	display: block;
 	background-image: url(images/password.png);
+	background-size: 11.5rem 10rem;
 	background-position: left;
 	background-repeat: no-repeat;
-	padding-left: 0.54rem;
-	margin-bottom: 0.24rem;
+	padding-left: 15rem;
+	margin-bottom: 7rem;
 	box-sizing:border-box;
 	width: 100%;
 	border: none;
-	height: 0.36rem; 
-	padding: 0rem 0 0rem 0.54rem;
+	height: 10rem; 
+	padding: 0 0 0 15rem;
 }
 .blank {
 	display: inline-block;
-	height: 0.2rem;
-	border: 1px solid #e1e5e7;
+	height: 5rem;
+	border: 0.1rem solid #e1e5e7;
 	position: absolute;
-	top: 0.44rem; /*top=body's padding-top+padding-button+(.phonenumber's height-.blank's height)/2=10rem+0+(8-7)/2 rem=10.5rem*/
-	left: 0.42rem;
+	top: 13rem; /*top=body's padding-top+padding-button+(.phonenumber's height-.blank's height)/2=10rem+0+(8-7)/2 rem=10.5rem*/
+	left: 11.5rem;
 }
 .gap {
 	display: inline-block;
-	height: 0.2rem;
-	border: 1px solid #e1e5e7;
+	height: 5rem;
+	border: 0.1rem solid #e1e5e7;
 	position: absolute;
-	top: 0.84rem; /*top=body's padding-top+.phonenumber's height+.phonenumber's margin-bottom+.phonenumber's margin-top+(.password's height-.blank's height)/2*/
-	left: 0.42rem;
+	top: 24.5rem; /*top=body's padding-top+.phonenumber's height+.phonenumber's margin-bottom+.phonenumber's margin-top+(.password's height-.blank's height)/2*/
+	left: 11.5rem;
 }
 .land {
 	display: block;
     width: 100%;
-    height: 0.36rem;
+    height: 10rem;
     background-color:#5fc0cd;
     border:none; 
-    font-size: 0.1rem;
+    font-size: 3rem;
     color: white;
 }
 .forget {
 	display: inline-block;
 	float: right;
-	font-size: 0.1rem;
+	font-size: 3rem;
 	text-decoration: none;
-	padding: 0.01rem 0.01rem 0 0;
+	padding: 2rem 3rem 0 0;
 }
