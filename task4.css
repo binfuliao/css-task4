@@ -3,24 +3,25 @@ html{font-size: 62.5%;}
 .main {
 	width: 100%;
 	background-color: #e1e5e7;
-	font-size: 3rem;
+	font-size: 15px;
 }
 .header {
 	position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 9rem;
-	line-height: 9rem;
+	height: 45px;
+	line-height: 45px;
 	background-color:#5fc0cd;
 	color: white;
-    padding: 0 3rem;
+    padding: 0 30px;
 }
 .header button {
 	border:none;
-	height: 9rem;
+	height: 45px;
 	background-color:#5fc0cd;
     color: white;
+    font-size: 15px;
 }
 .register {
 	float: left;	
@@ -32,71 +33,73 @@ html{font-size: 62.5%;}
 	text-align: center; 
 }
 .bodyer {
-	padding-top: 10.5rem;	
+	padding-top: 52.5px;	
 }
 
 input[placeholder] {
+	font-size: 15px;
 }
 input:-moz-placeholder{ color: #e1e5e7; }
 ::-webkit-input-placeholder{ color: #e1e5e7;}
 .phonenumber {
 	display: block;
 	background-image: url(images/land.png);
-	background-size:11.5rem 10rem;
+	background-size:57.5px 50px;
 	background-position: left;
 	background-repeat: no-repeat;
-	margin-bottom: 1.5rem;
+	margin-bottom: 7.5px;
 	box-sizing: border-box;
 	width: 100%;
 	border: none;
-	height: 10rem;
-	padding: 0rem 0 0rem 15rem;
+	height: 50px;
+	padding: 0 0 0 75px;
 }
 .password {
-	display: block;
+	display: inline-block;
+	float: left;
 	background-image: url(images/password.png);
-	background-size:11.5rem 10rem;
+	background-size:57.5px 50px;
 	background-position: left;
 	background-repeat: no-repeat;
-	padding-left: 15rem;
-	margin-bottom: 7rem;
+	padding-left: 75px;
+	margin-bottom: 70px;
 	box-sizing:border-box;
 	width: 100%;
 	border: none;
-	height: 10rem; 
-	padding: 0 0 0 15rem;
+	height: 50px; 
+	padding: 0 0 0 75px;
 }
 .blank {
 	display: inline-block;
-	height: 5rem;
-	border: 0.1rem solid #e1e5e7;
+	height: 25px;
+	border: 1px solid #e1e5e7;
 	position: absolute;
-	top: 13rem; /*top=body's padding-top+padding-button+(.phonenumber's height-.blank's height)/2=10rem+0+(8-7)/2 rem=10.5rem*/
-	left: 11.5rem;
+	top: 65px; /*top=body's padding-top+padding-button+(.phonenumber's height-.blank's height)/2=10rem+0+(8-7)/2 rem=10.5rem*/
+	left: 57.5px;
 }
 .gap {
 	display: inline-block;
-	height: 5rem;
-	border: 0.1rem solid #e1e5e7;
+	height: 25px;
+	border: 1px solid #e1e5e7;
 	position: absolute;
-	top: 24.5rem; /*top=body's padding-top+.phonenumber's height+.phonenumber's margin-bottom+.phonenumber's margin-top+(.password's height-.blank's height)/2*/
-	left: 11.5rem;
+	top: 122.5px; /*top=body's padding-top+.phonenumber's height+.phonenumber's margin-bottom+.phonenumber's margin-top+(.password's height-.blank's height)/2*/
+	left: 57.5px;
 }
 .land {
 	display: block;
     width: 100%;
-    height: 10rem;
+    height: 60px;
     background-color:#5fc0cd;
     border:none; 
     color: white;
-    font-size: 3rem;
+    font-size: 15px;
 }
 .forget {
 	display: inline-block;
 	float: right;
 	text-decoration: none;
-	padding: 2rem 3rem 0 0;
+	padding: 10px 15px 0 0;
 	color: #5fc0cd;
-	margin-bottom: 17rem;
+	margin-bottom: 240px;
 	font-size: 62.5%;
 }
